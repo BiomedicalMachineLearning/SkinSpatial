@@ -1,0 +1,7 @@
+#Insight Transform File V1.0
+#Transform 0
+Transform: CompositeTransform_double_2_2
+#Transform 1
+Transform: Euler2DTransform_double_2_2
+Parameters: 0.00425785340676079 -597.3480056108043 120.48790037540932
+FixedParameters: 3929 8994
