@@ -1,4 +1,4 @@
-# SkinSpatial
+# TRISH pipeline
 A repository for the code to analyse skin spatial data 
 The official demonstration of TRISH pipeline
 
