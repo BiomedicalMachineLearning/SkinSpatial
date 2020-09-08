@@ -5,6 +5,6 @@ The official demonstration of TRISH pipeline
 1. RNAscope scanned image
 ![Merged image](/figures/merged_5_channels_image.png)
 
-2. Heatmap of cell-cell communication
+2. Heatmap of Ligand-receptor communication for the pair of CSF1R and IL34 
 ![GitHub Logo](/figures/collocalization_scene1_CSF1R_IL34.jpg)
 
