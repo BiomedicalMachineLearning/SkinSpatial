@@ -1,7 +1,7 @@
 STRISH detection flow. 
 
 
-1. RNAscope with 3 probes that bind to THY1, IL34, CSF1R colored by Cy3, Cy5, Cy7 respectively 
+1. RNAscope with nuclei is colored by DAPI and 3 probes that bind to THY1, IL34, CSF1R colored by Cy3, Cy5, Cy7 respectively (Contrast level of each marker is adjusted to make them more visible).
 <a id="step0">![Step 0](/figures/scene1_original_img.png)</a>
 2. Apply cell detection in 10% of the image size to search of the areas that have cells
 <a id="step1">![Step 1](/figures/scene1_step1_img.png)</a>
