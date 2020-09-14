@@ -7,7 +7,7 @@ STRISH is a computational pipeline that enables us to quantitatively model cell-
 STRISH pipeline consists of three major steps. 
 
 
-   **Step 1:** Run cell detection for RNAScope data using series of nonoverlapped windows with QuPath. For generality, the size of scanning windows are initially set to 10% of of the whole scan image. Then gradually the detection window sizes are scaled down until the number of cell detected in each [window](#window_scan) are less than a threshold (default value is 10 cells per window). More illustration about this of STRISH process can be found [here](STRISH/QuPath_pipelines/README.md)
+   **Step 1:** Run cell detection for RNAScope data using series of nonoverlapped windows with QuPath. For generality, the size of scanning windows are initially set to 10% of of the whole scan image. Then gradually the detection window sizes are scaled down until the number of cell detected in each [window](#window_scan) are less than a threshold (default value is 10 cells per window). More illustrations about this of STRISH process can be found [here](STRISH/QuPath_pipelines/README.md)
    
    **Step 2:** Run a [Python proces](STRISH/Python_pipelines/RNAscope_CCC_analysis_pipeline.ipynb) to computationally calculate ligand-receptor local co-expression level of two pairs of target markers. For the pair of ligand-receptor which two markes come from two separated scanning image, [image registration](STRISH/Python_pipelines/Images_registration.ipynb) is required before evaluating local co-expression level in the tissue. The final outcome is visualize by the heatmap. 
    
