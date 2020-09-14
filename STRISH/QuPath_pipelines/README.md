@@ -7,5 +7,5 @@ STRISH detection flow.
 <a id="step1">![Step 1](/figures/scene1_step1_img.png)</a>
 3. The windows with no cell inside are remove while the windows with cells detected are subjected to find local ligand-receptor interaction  
 <a id="step2">![Step 2](/figures/scene1_step2_img.png)</a>
-4. Final detection result with the all the windows with cells are detected and possible ligan-recept local co-expression. 
+4. Final detection result with the all the windows with cells are detected and possible ligand-recept local co-expression. 
 <a id="step3">![LR interation](/figures/scene1_final_img.png )</a>
