@@ -24,8 +24,8 @@ STRISH pipeline consists of three major steps.
 ![Merged image](/figures/merged_5_channels_image.png)
 
 
-![LR interation](/figures/collocalization_scene1_CSF1R_IL34.jpg)
-<a id="lr_interaction">2. Heatmap of Ligand-receptor communication for the pair of CSF1R and IL34</a>
+<a id="lr_interaction">![LR interation](/figures/collocalization_scene1_CSF1R_IL34.jpg)</a>
+2. Heatmap of Ligand-receptor communication for the pair of CSF1R and IL34
  
 
 
