@@ -5,7 +5,7 @@ SkinSpatial is a repository for the code to analyse skin spatial data. Here we h
 STRISH is a computational pipeline that enables us to quantitatively model cell-cell interactions by automatically scanning for local expression of RNAscope data to recapitulate an interaction landscape across the whole tissue.
 
 1. To process RNAScope data, see the Ipynb at [STRISH/Python_pipeline/CCC_analysis_pipeline](STRISH/Python_pipelines/RNAscope_CCC_analysis_pipeline.ipynb)
-2. To run the cell detection pipeline copy the groovy files froom [STRISH/QuPath_pipelines](STRISH/QuPath_pipelines/)
+2. To run the cell detection pipeline create a QuPath project and copy the groovy script file the script directory. More detail in [STRISH/QuPath_pipelines](STRISH/QuPath_pipelines/README.md)
 3. For details about image resgistration, see the Ipynb at [STRISH/Python_pipeline/Image_registation](STRISH/Python_pipelines/Images_registration.ipynb)
 4. For details about cell-cell interation analysis with Visium data, visit stLearn page at [stLearn](https://github.com/BiomedicalMachineLearning/stLearn) 
 
