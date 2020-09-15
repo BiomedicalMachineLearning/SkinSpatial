@@ -1,4 +1,4 @@
-## STRISH pipeline with Groovy script for detecting cells local co-expression using nonoverlapping windows strategy. 
+## STRISH pipeline with QuPath script for detecting cells local coexpression using nonoverlapping windows strategy. 
 
 
 1. RNAscope with nuclei is colored by DAPI and 3 probes that bind to THY1, IL34, CSF1R colored by Cy3, Cy5, Cy7 respectively (Contrast level of each marker is adjusted to make them more visible).
