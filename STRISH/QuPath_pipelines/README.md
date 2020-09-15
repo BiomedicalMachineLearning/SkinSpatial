@@ -1,7 +1,7 @@
 ## STRISH pipeline with QuPath script for detecting cells local coexpression using nonoverlapping windows strategy. 
 
 
-1. RNAscope with nuclei is colored by DAPI (blue) and 3 probes that bind to THY1, IL34, CSF1R colored by Cy3 (orange), Cy5 (red), Cy7 (yellow) respectively (Contrast level of each marker is adjusted to make them more visible).
+1. The image below shows the original scan image from RNAscope with nuclei is stained by DAPI (blue) and other 3 probes that bind to THY1, IL34, CSF1R are stained  by Cy3 (orange), Cy5 (red) and Cy7 (yellow) fluorophores respectively (Contrast level of each marker is adjusted to make them more visible).
 <a id="step0">![Step 0](/figures/scene1_original_img.png)</a>
 2. Apply cell detection in broad area to search of the areas that contain cells. 
 <a id="step1">![Step 1](/figures/scene1_step1_img.png)</a>
