@@ -7,5 +7,5 @@
 <a id="step1">![Step 1](/figures/scene1_step1_img.png)</a>
 3. The windows with zero cell detected are removed while the windows with at least two cells detected are kept and subjected to find local ligand-receptor interaction in smaller windows.  
 <a id="step2">![Step 2](/figures/scene1_step2_img.png)</a>
-4. Final detection result with the all the windows which cells are detected and possible ligand-receptor local co-expression. The threshold for the number of cell for each window is set to 10 cells to make sure that the computation effort is not too expensive while the subsequent steps with Python script produce enough detail  about cells local coexpression.     
+4. Final detection result with the all the windows which cells are detected and possible ligand-receptor local co-expression. The threshold for the number of cell for each window is set to 10 cells to make sure that the computation effort is not too expensive while the subsequent steps in Python produce enough detail about cells local coexpression.     
 <a id="step3">![LR interation](/figures/scene1_final_img.png )</a>
