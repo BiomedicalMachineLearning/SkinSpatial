@@ -229,7 +229,7 @@ def image_display = viewer.getImageDisplay()
 def channels = image_display.availableChannels()
 // print(channels.getClass())
 // print(getCurrentHierarchy().getClass()) 
-current_scene_number = '1005_Scene_2_R1_threshold_100c'
+current_scene_number = '1005_Scene_2_R1_threshold_20c'
 def base_path = buildFilePath(QPEx.PROJECT_BASE_DIR, current_scene_number)
 mkdirs(base_path)
 int count_cell = 11
@@ -243,7 +243,7 @@ def plane = ImagePlane.getPlane(z, t)
 int counter = 0
 // Add the grid of ROI into image
 def annotations =  add_annotation_boxes(image_width, image_height, plane, 0, 0, 0.125)
-def threshold = 100
+def threshold = 20
 existing_annotations = getAnnotationObjectsAsArray()
 
 while (count_cell > threshold || existing_annotations.size() > 0 ) {
