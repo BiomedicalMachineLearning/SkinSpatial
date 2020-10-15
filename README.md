@@ -20,7 +20,7 @@ More illustrations about STRISH cell detection with the windows strategy can be 
 ## Additional analysis
 1. For details about cell-cell interation analysis with Visium data, visit stLearn github page at [stLearn](https://github.com/BiomedicalMachineLearning/stLearn) 
 2. For CellPhoneDB method for ligand-receptor interaction prediction, visit CellPhoneDB github page [CellPhoneDB](https://github.com/Teichlab/cellphonedb)
-## Examples of STRISH analysis of RNASCope data: 
+## Examples of STRISH analysis of RNAscope data: 
 
 1. RNAscope scanned image with five markers
 <a id="img_regis">![Merged image](/figures/merged_5_channels_image.png)</a>
