@@ -13,7 +13,7 @@ STRISH pipeline consists of three major steps.
 
 More illustrations about STRISH cell detection with the windows strategy can be found [here](STRISH/QuPath_pipelines/README.md)
    
-   **Step 2:** Run a [Python proces](STRISH/Python_pipelines/RNAscope_CCC_analysis_pipeline.ipynb) to computationally calculate ligand-receptor local co-expression level of two pairs of target markers. For the pair of ligand-receptor which two markes come from two separated scanning image, [image registration](STRISH/Python_pipelines/Images_registration.ipynb) is required before evaluating local co-expression level in the tissue. The final outcome is visualize by the heatmap. 
+   **Step 2:** Run a [Python process](STRISH/Python_pipelines/RNAscope_CCC_analysis_pipeline.ipynb) to computationally calculate ligand-receptor local co-expression level of two pairs of target markers. For the pair of ligand-receptor which two markes come from two separated scanning image, [image registration](STRISH/Python_pipelines/Images_registration.ipynb) is required before evaluating local co-expression level in the tissue. The final outcome is visualize by the heatmap. 
    
    **Step 3:** Cropping background and plotting tissue contour to focus on the main tissue area, i.e. [Fig 3](#lr_interaction). 
    
