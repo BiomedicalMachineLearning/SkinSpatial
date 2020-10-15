@@ -7,7 +7,8 @@ STRISH is a computational pipeline that enables us to quantitatively model cell-
 STRISH pipeline consists of three major steps. 
 
 
-   **Step 1:** Run cell detection for RNAScope data using series of nonoverlapped windows with QuPath. For generality, the size of scanning windows are initially set to 10% of of the whole scan image. Then the detection window sizes gradually scale down until the number of cell detected in each [window](#window_scan) are less than a threshold (default value is 10 cells per window). More details about STRISH cell detection with the windows strategy can be found [here](STRISH/QuPath_pipelines/README.md)
+   **Step 1:** Run cell detection for RNAScope data using series of nonoverlapped windows with QuPath. The size of scanning windows are initially set to 10% (cusomizable) of of the whole scan image. If the cell detected result in the current window is greater than the threshold, gradually split the window size into smaller subwindow until the condition is satisfied [window](#window_scan). Otherwise, remove the window from the current list of scanning windows. The cell detection algorithm pseudocode is followed [pseudocode](#pseudocode)   
+More details about STRISH cell detection with the windows strategy can be found [here](STRISH/QuPath_pipelines/README.md)
    
    **Step 2:** Run a [Python proces](STRISH/Python_pipelines/RNAscope_CCC_analysis_pipeline.ipynb) to computationally calculate ligand-receptor local co-expression level of two pairs of target markers. For the pair of ligand-receptor which two markes come from two separated scanning image, [image registration](STRISH/Python_pipelines/Images_registration.ipynb) is required before evaluating local co-expression level in the tissue. The final outcome is visualize by the heatmap. 
    
@@ -24,7 +25,10 @@ STRISH pipeline consists of three major steps.
 2. RNAscope scanned image with five markers
 <a id="window_scan">![Cells detection](/figures/scene1_step2_img.png)</a>
 
-3. Heatmap of Ligand-receptor communication for the pair of CSF1R and IL34
+3. Pseudocode of local cell detection by window stategy 
+<a id="pseudocode">![Cells detection algorithm pseudocode](/figures/Pseudocode_STRISH_detection.png)</a>
+
+4. Heatmap of Ligand-receptor communication for the pair of CSF1R and IL34
 <a id="lr_interaction">![LR interation](/figures/collocalization_scene1_CSF1R_IL34.jpg)</a>
 
  
