@@ -7,7 +7,7 @@ STRISH is a computational pipeline that enables us to quantitatively model cell-
 STRISH pipeline consists of three major steps. 
 
 
-   **Step 1:** Run cell detection for RNAScope data using series of nonoverlapped windows with QuPath. The size of scanning windows are initially set to 10% (customizable) of the whole scan image. If the cell detection result in the current window is greater than the threshold, gradually split the window size into smaller subwindow until the condition is satisfied [window](#window_scan). Otherwise, remove the window from the current list of scanning windows. The cell detection algorithm pseudocode is followed [pseudocode](#pseudocode)   
+   **Step 1:** Run cell detection for RNAScope data using series of nonoverlapped windows with QuPath. The size of scanning windows are initially set to 10% (customizable) of the whole scan image. If the cell detection result in the current window is greater than the threshold, gradually split the window size into smaller subwindow until the conditions are satisfied ([window](#window_scan)). Otherwise, remove the window from the current list of scanning windows. The cell detection algorithm pseudocode is followed [pseudocode](#pseudocode)   
 
 <a id="pseudocode"><img src="/figures/Pseudocode_STRISH_detection.png" alt="drawing" width="575"/></a>
 
